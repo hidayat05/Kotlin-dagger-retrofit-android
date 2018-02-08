@@ -11,9 +11,7 @@ import id.maskipli.kotlindagger.common.di.modules.AndroidModule
  */
 class App : Application() {
 
-
     lateinit var component: ApplicationComponent
-
 
     override fun onCreate() {
         super.onCreate()
